@@ -1,0 +1,10 @@
+config {
+  type: "table",
+  columns: {
+    name: "shrine name",
+  }
+}
+
+SELECT "伏見稲荷大社" AS name UNION ALL
+SELECT "北野天満宮" AS name UNION ALL
+SELECT "平等院" AS name

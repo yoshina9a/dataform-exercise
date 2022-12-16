@@ -3,6 +3,6 @@
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "sandbox-yoshinaga",
-  "defaultLocation": "US"
+  "defaultLocation": "asia-northeast1"
 }
     

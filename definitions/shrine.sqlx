@@ -1,0 +1,10 @@
+config {
+  type: "view",
+  columns: {
+    name: "名前",
+  }
+}
+
+SELECT * FROM ${ref("shrine_kyoto")}
+UNION ALL
+SELECT * FROM ${ref("shrine_nara")}
